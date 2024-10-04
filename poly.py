@@ -27,3 +27,18 @@
 #     if res==i:
 #         print(i)
 
+def is_palindrome(n):
+    return str(n) == str(n)[::-1]
+
+def count_palindromes_in_range(start, end):
+    count = 0
+    for num in range(start, end + 1):
+        if is_palindrome(num):
+            count += 1
+    return count
+
+# Example usage
+start = 10
+end = 200
+result = count_palindromes_in_range(start, end)
+print(f"Number of palindrome numbers between {start} and {end}: {result}")
