@@ -20,3 +20,6 @@ if is_strong_number(number):
     print(f"{number} is a Strong Number.")
 else:
     print(f"{number} is not a Strong Number.")
+
+
+

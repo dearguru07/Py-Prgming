@@ -47,7 +47,7 @@ sr=int(input('enter a nunber'))
 er=int(input('enter a nunber'))
 flaot=True
 for i in range(sr,er+1):
-    if flaot==Amstrong(i)     :
+    if flaot==Amstrong(i):
         print(i)
 
 
