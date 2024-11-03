@@ -8,3 +8,11 @@ let x='learn'
 console.log(x.substring(6,2))
 
 console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
+console.log('Heloo world......')
