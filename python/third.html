@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table with Rowspan and Colspan</title>
+    <style>
+        table {
+            width: 60%; /* Set table width */
+            border-collapse: collapse; /* Remove gaps between cells */
+            margin: 20px 0; /* Add space above and below the table */
+        }
+        th, td {
+            border: 1px solid #000; /* Add a border to cells */
+            padding: 10px; /* Add padding inside cells */
+            text-align: center; /* Center align text */
+        }
+        th {
+            background-color: #f2f2f2; /* Set background color for headers */
+        }
+    </style>
+</head>
+<body>
+
+<h2>Table Example with Rowspan and Colspan</h2>
+
+<table>
+    <thead>
+        <tr>
+            <th>Item</th>
+            <th>Quantity</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td rowspan="2">Fruits</td>
+            <td>Apples</td>
+            <td>$2</td>
+        </tr>
+        <tr>
+            <td>Oranges</td>
+            <td>$3</td>
+        </tr>
+        <tr>
+            <td colspan="2">Vegetables</td>
+            <td>$4</td>
+        </tr>
+        <tr>
+            <td>Carrots</td>
+            <td>$1</td>
+            <td>$1</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>

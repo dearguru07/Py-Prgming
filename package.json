@@ -1,0 +1,17 @@
+{
+  "name": "py-prgrm",
+  "version": "1.0.0",
+  "description": "guru",
+  "main": "app.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "hleosjh"
+  ],
+  "author": "guru",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.3.3"
+  }
+}
